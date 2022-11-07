@@ -1,0 +1,22 @@
+{
+  "name": "tq-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=17.0.0"
+  },
+  "dependencies": {
+    "@microsoft/signalr": "^6.0.0",
+    "@taquito/signer": "^11.0.2",
+    "@taquito/taquito": "^11.0.2",
+    "node-fetch": "^3.1.0"
+  },
+  "type": "module"
+}
